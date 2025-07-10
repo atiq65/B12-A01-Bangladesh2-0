@@ -1,0 +1,254 @@
+/* Global Font Wight */
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fira-sans-medium {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.fira-sans-semibold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.fira-sans-bold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Shared Section */
+.primary-color{
+    color: #0E0E0E;
+}
+.secondary-color{
+    color: #006A50;
+}
+.primary-bg-color{
+    background-color: #C6E4D6;
+}
+/* Navigation Section */
+.nav{
+    display: flex;
+    width: 1280px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.nav-heading{
+    font-weight: 700;
+    font-size: 32px;
+}
+.nav-btn{
+    width: 116px;
+    height: 52px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+/* Banner Section */
+.banner{
+    width: 1280px;
+    height: 560px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannner-conteiner{
+    padding-left: 59.99px;
+    padding-right: 59.99px;
+    gap: 64px;
+}
+.banner-sub-title{
+    font-weight: 500;
+    font-size: 24px;
+    color: #0e0e0e83;
+    margin-bottom: 16px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 56px;
+    padding-bottom: 24px;
+
+}
+.banner-btn{
+    width: 270px;
+    height: 56px;
+    background-color: #006A50;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+.hero-img{
+    width: 474.03px;
+    height: 400px;
+}
+/* Pillaars Section */
+.pillars-section{
+    width: 1280px;
+    height: 324px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.pillar-conteiner{
+    display: flex;
+    gap: 24px;
+
+}
+.pillar-title{
+    margin-bottom: 32px;
+}
+.card{
+    width: 320px;
+    height: 244px;
+    background-color: #0e0e0e2a;
+    padding: 24px;
+    border: 2px solid #0e0e0ea6;
+    border-radius: 16px;
+    
+    
+}
+.card-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #0e0e0ed3;
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+.card-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0e0e0ead;
+}
+
+/* Vision Section */
+.vision-section{
+    width: 1280px;
+    height: 765px;
+    margin-top: 80px;
+    margin: 80px auto;
+}
+.vision-intro{
+    
+}
+.vision-title{
+    font-weight: 700;
+    font-size: 40px;
+
+}
+.vision-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0e0e0ea6;
+}
+.vision-card{
+    width: 410.67px;
+    height: 325px;
+    background-color: #548ff534;
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 32px;
+}
+.vision-card-2{
+    width: 410.67px;
+    height: 325px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 32px;
+}
+.vision-card-3{
+    width: 410.67px;
+    height: 325px;
+    background-color: #ffc43944;
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 32px;
+}
+.vision-card-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #0e0e0ed8;
+    margin-top: 24px;
+}
+.vision-ccard-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0e0e0eaf;
+}
+.v-btn{
+    width: 122px;
+    height: 41px;
+    background-color: #5490F5;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    border: none;
+    border-radius: 8px;
+}
+.v-btn-2{
+    width: 122px;
+    height: 41px;
+    background-color: #09A15C;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    border: none;
+    border-radius: 8px;
+}
+.v-btn-3{
+    width: 122px;
+    height: 41px;
+    background-color: #FFC239;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    border: none;
+    border-radius: 8px;
+}
+.vision-card-conteiner{
+    display: flex;
+    gap: 24px;
+}
+.quates{
+    height: 256px;
+    background-color: #0e0e0ea8;
+    margin-top: 32px;
+    border-radius: 16px;
+    padding: 48px 24px;
+}
+.des{
+    background-image: url(../images/quote-bg.png);
+    background-repeat: no-repeat;
+}
+.q-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0e0e0ed3;
+}
+.q-heading{
+    font-weight: 600;
+    font-size: 20px;
+    color: #0e0e0ec0;
+}
+.q-t-des{
+    font-weight: ;
+    font-size: 16px;
+    color: #0e0e0e73;
+}
+.title{
+    margin-top: 12px;
+}
